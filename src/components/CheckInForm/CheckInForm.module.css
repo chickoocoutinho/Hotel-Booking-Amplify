@@ -1,0 +1,24 @@
+.container{
+    width: 900px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 25% 25% 10% 10% 20%;
+    padding: 50px 2.5%;
+}
+.input{
+    display: grid;
+    grid-template-columns: auto 30px;
+}
+.input span{
+    font-size: small;
+}
+
+.datePicker{
+    margin: 0 2px;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    margin: 18px 5px;
+}

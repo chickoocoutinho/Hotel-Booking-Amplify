@@ -1,0 +1,50 @@
+.roomsContainer{
+    background-image: url("../../assets/images/rooms.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 900px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.reviewsContainer{
+    background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)),url("../../assets/images/Garden.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 900px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.textbox{
+    width: 40%;
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 150px 30%;
+    text-align: center;
+}
+.textbox h2{
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.textbox button{
+    border: 1px solid #000000;
+    outline: none;
+    background: none;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+.textbox p{
+    opacity: 0.5;
+}

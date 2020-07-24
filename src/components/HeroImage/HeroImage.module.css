@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.headingContainer{
+    font-family: 'Unna', serif;
+    text-align: center;
+    margin: 50px 0;
+    letter-spacing: 0.1rem;
+    line-height: 1.3;
+}
+.headingContainer h1{
+    font-size: 46px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 0px;
+    letter-spacing: 0.2rem;
+}
+.headingContainer h2{
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 0px;
+    word-spacing: 0.2rem;
+}
+
+.heroImg{
+    background-image: url("../../assets/images/HotelLounge.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 100vh;
+}
