@@ -44,9 +44,14 @@
     background: none;
     padding: 10px 20px;
     margin-top: 30px;
+    transition: 0.5s ease;
 }
 .textbox p{
     opacity: 0.5;
+}
+.textbox button:hover{
+    color: #ffffff;
+    background-color: #242323;
 }
 
 @media (max-width: 900px){
