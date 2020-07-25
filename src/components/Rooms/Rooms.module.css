@@ -31,7 +31,7 @@
     width: 40%;
     background-color: #ffffff;
     padding: 50px;
-    margin: 150px 30%;
+    margin: 150px 0;
     text-align: center;
 }
 .textbox h2{
@@ -47,4 +47,15 @@
 }
 .textbox p{
     opacity: 0.5;
+}
+
+@media (max-width: 900px){
+    .roomsContainer,.reviewsContainer{
+        width: 100%;
+        margin: none;
+    }
+    .textbox{
+        width: 60%;
+        padding: 50px 10%;
+    }
 }

@@ -9,7 +9,7 @@ const Footer = () => {
             allowfullscreen="" aria-hidden="false" tabindex="0" />
         <footer>
             &copy; 2020 by Benito Coutinho. &nbsp;
-            <a href="#" target="_blank" rel="noreferrer noopener">
+            <a href="https://github.com/chickoocoutinho/Ferofly-Demo-Site" target="_blank" rel="noreferrer noopener">
              Link to source code 
             </a>
         </footer>

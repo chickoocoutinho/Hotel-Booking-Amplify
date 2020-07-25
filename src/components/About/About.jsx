@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './About.module.css';
 
-const About = () => {
+const About = ({divRef}) => {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} ref={divRef}>
             <div className={styles.text}>
                 <h1>ABOUT</h1>
                 <p>
