@@ -27,7 +27,7 @@ const CheckInForm = () => {
         axios.post('https://uvnnx5amp1.execute-api.ap-south-1.amazonaws.com/staging/book',{
             id: Math.random(),
             check_id : checkInDate.toUTCString(),
-            check_out: checkOutDate.toUTCString(),
+            check_out: checkOutDate.toUTCString(), 
             adults: adultsNum,
             kids: kidsNum
         })
