@@ -25,7 +25,7 @@ const HeroImage = () => {
     return (
         <div className={styles.container}>
             <div className={styles.headingContainer}>
-                <h1>Ferofly</h1>
+                <h1>Hotel</h1>
                 <h2>
                     - Magnify your Journey - 
                 </h2>
